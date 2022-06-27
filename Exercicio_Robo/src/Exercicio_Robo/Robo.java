@@ -55,4 +55,8 @@ public class Robo {
 		this.ligado = true;
 	}
 	
+	public String toString() {
+		return "Estado:" + ((ligado) ? " ligado" : " desligado");
+	}
+	
 }
